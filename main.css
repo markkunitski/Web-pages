@@ -1,0 +1,448 @@
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+header {
+    background: #FFFFFF;
+    height: 100px;
+    box-shadow: 0px 3px 84px 0px rgba(0, 0, 0, 0.07);
+
+}
+
+.center {
+    max-width: 1260px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.teashop a {
+    margin-left: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+
+    color: #000000;
+}
+
+.menu {
+    margin-left: 34px;
+}
+
+.katalog a {
+    margin-left: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.nomer span {
+    margin-left: 65px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.vremia span {
+    margin-left: 29px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    /* Gray 139 */
+
+    color: #8B8B8B;
+
+}
+
+.dostavka a {
+    margin-left: 65px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.poisk {
+    display: flex;
+    flex-direction: column;
+    margin-left: 64px;
+}
+
+.poisk a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    /* identical to box height */
+
+
+    /* Gray 168 */
+
+    color: #A8A8A8;
+
+}
+
+.poisk span {
+    background-color: #8B8B8B;
+    height: 1px;
+    width: 175px;
+    margin-top: 10px;
+}
+
+.korzina {
+    margin-left: 67px;
+}
+
+.kolic {
+    margin-left: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+
+/*  */
+/*  */
+/*  */
+
+
+main {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+main p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #000000;
+}
+
+.row1 {
+    display: flex;
+
+}
+
+.row2 {
+    display: flex;
+}
+
+.devivery h1 {
+    margin-top: 32px;
+    margin-bottom: 25px;
+}
+
+.devivery h2 {
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+.row1 p {
+    margin-bottom: 36px;
+}
+
+.row2 p {
+    margin-bottom: 50px;
+}
+
+.bespl {
+    margin-right: 40px;
+}
+
+.oform {
+    margin-right: 40px;
+}
+
+
+/*  */
+/*  */
+/*  */
+
+.email {
+    width: 1260px;
+    height: 192px;
+    background-image: url(img/Rectangle\ 30.png);
+    display: flex;
+}
+
+.email span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height, or 100% */
+
+
+    color: #FFFFFF;
+    margin: 79px 31px 83px 134px;
+}
+
+.vvod ::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    /* Gray 168 */
+
+    color: #A8A8A8;
+    margin: 0%;
+    padding: 0%;
+}
+
+.vvod {
+    width: 250px;
+    height: 51px;
+    background-color: #FFFFFF;
+    margin-top: 71px;
+    margin-bottom: 70px;
+    margin-right: 20px;
+}
+
+.vvod input {
+    outline: 0ch;
+    margin-top: 9px;
+    margin-left: 24px;
+    border: 0ch;
+    padding: 0%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.email button {
+    color: white;
+    background-color: #B798FF;
+    margin-top: 71px;
+    margin-bottom: 70px;
+    margin-right: 192px;
+    border: 0px;
+}
+
+.email button:hover {
+    background-color: #a080ec;
+}
+
+button p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 9px;
+    margin-bottom: 12px;
+    margin-right: 21px;
+    margin-left: 24px;
+    color: #FFFFFF;
+}
+
+.oplata {
+    margin-top: 48px;
+    margin-bottom: 25px;
+}
+
+.payment {
+    display: flex;
+    margin-bottom: 59px;
+}
+
+.nal {
+    margin-right: 40px;
+    width: 393px;
+}
+
+.nalozh {
+    margin-right: 40px;
+    width: 393px;
+}
+
+.bank {
+    width: 393px;
+}
+
+.content1,
+.content2,
+.content3 {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 84px rgba(0, 0, 0, 0.07);
+    height: 226px;
+}
+
+.content1 h2,
+.content2 h2,
+.content3 h2 {
+    padding: 38px 0px 12px 44px;
+}
+
+.content1 p,
+.content2 p,
+.content3 p {
+    padding: 0px 40px 36px 44px;
+}
+
+
+/*  */
+/*  */
+/*  */
+
+
+footer {
+    background-color: #F0F0F0;
+}
+
+.fcenter {
+    max-width: 1260px;
+    height: 186px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+
+.fcenter a {
+    text-decoration: none;
+    color: #927BC9;
+}
+
+.fcenter a:hover {
+    text-decoration: underline;
+    color: #62508d;
+}
+
+.adres {
+    width: 242px;
+    margin-right: 77px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.adres p {
+    margin-bottom: 9px;
+}
+
+.contact {
+    width: 176px;
+    margin-right: 73px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.contact p {
+    margin-bottom: 9px;
+}
+
+#ftea {
+    padding-top: 10px;
+}
+
+.infa {
+    width: 624px;
+    margin-right: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    /* Gray 168 */
+
+    color: #A8A8A8;
+}
+
+.seti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vk {
+    margin-bottom: 6.85px;
+}
+
+.fb {
+    margin-bottom: 7.82px;
+}
