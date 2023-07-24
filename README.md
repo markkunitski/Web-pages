@@ -1,2 +1,2 @@
 # Web-pages
-First steps into html, css, bootstrap, js
+My first 'small' projects where i was practicing my layout skills
