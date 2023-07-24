@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles/rst.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+
+<body>
+    <div class="register page" id="wrapper">
+        <div class="main">
+            <div class="header">
+                <nav>
+                    <a href="#" class="reg active preventDefault">Регистрация</a>
+                    <a href="#" class="log switchPage">Вход</a>
+                </nav>
+            </div>
+            <div class="body">
+                <form action="#" class="preventDefault vvod">
+                    <input class="em" type="email" autocomplete="email" placeholder="Введите ваш email">
+                    <input class="te" type="text" autocomplete="name" placeholder="Введите вашe имя">
+                    <input class="pas" type="password" autocomplete="current-password" placeholder="Придумайте пароль">
+                    <input class="da" type="date">
+                </form>
+                <div class="check">
+                    <input type="checkbox" id="agree"><label for="agree">Я согласен получать рассылку</label>
+                </div>
+                <div class="check1">
+                    <input type="checkbox" id="read"><label for="read">Я прочитал и согласен с <a
+                            href="#">пользовательским
+                            соглашением</a></label>
+                </div>
+                <button>Зарегестрироваться</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="login page hidden" id="wrapper">
+        <div class="main">
+            <div class="header">
+                <nav>
+                    <a href="#" class="reg switchPage">Регистрация</a>
+                    <a href="#" active class="log active preventDefault">Вход</a>
+                </nav>
+            </div>
+            <div class="body">
+                <form action="#" class="preventDefault vvod">
+                    <input class="em" type="email" autocomplete="email" placeholder="Введите ваш email">
+                    <input class="pas" type="password" autocomplete="current-password" placeholder="Придумайте пароль">
+                </form>
+                <div class="bodyBottom">
+                    <button>Войти</button>
+                    <a href="#" class="preventDefault">Forgot your password?</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="src/scripts/main.js"></script>
+</body>
+
+</html>
